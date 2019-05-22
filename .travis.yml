@@ -25,5 +25,3 @@ script:
 
   #Deploy to target deployment org and run unit tests
 - sfdx force:mdapi:deploy -c -f ./mdAPIZIP/unpackaged.zip -u HubOrg -w 10
-# sfdx force:mdapi:deploy -c -f HubOrg -d ./mdAPIZip/unpackaged.zip -w -1 -l RunAllTestsInOrg
-# sfdx sample
